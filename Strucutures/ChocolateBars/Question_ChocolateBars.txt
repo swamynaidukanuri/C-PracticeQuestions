@@ -1,0 +1,12 @@
+Define a structure Chocolate with 3 attributes:
+Type (white, dark, milk)
+Weight
+Price
+
+Write a program that asks user how many chocolate bars (struct Chocolate) we want,
+read the data into a variable and create a Array of Chocolates with that user input.
+
+Write 2 functions:
+* One that fills the array with values (from user)
+* function that finds the most expansive chocolate bar and its index and “return” them both to main ,hint:(you need another struct here)
+  The most expansive chocolate bar is the one with maximum price-quantity-ratio
