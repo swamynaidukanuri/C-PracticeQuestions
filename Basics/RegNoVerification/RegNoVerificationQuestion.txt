@@ -1,0 +1,14 @@
+Write a simple program that asks the user for a Car registration number and then verifies that by:
+• Using a length function to make sure 6 characters were entered, use cout for displaying 
+error if user enters less or more letters. 
+• Check the first three character to make sure they are alphabetic. You can use 
+the isalpha(char) function for this.
+• Check the last three character to make sure they are numeric. You can use 
+the isdigit(char) function for this.
+• Include “ctype.h” for both isalpha() and isdigit() functions
+Enter car registration number: GF121
+Sorry Enter again
+Enter car registration number: B121N1
+Sorry Enter again
+Enter car registration number: BAN123
+Registration Number Verified..
